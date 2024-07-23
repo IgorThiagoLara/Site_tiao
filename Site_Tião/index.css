@@ -78,3 +78,17 @@ footer {
     text-align: center;
 }
 /*FIM*/
+
+.corpo{
+    height: 1000px; 
+}
+
+.corpo div:nth-child(1) {
+    height: 500px;
+    background-color: #FFDEAD;
+}
+
+.corpo div:nth-child(2) {
+    height: 500px;
+    background-color: #F5DEB3;
+}
