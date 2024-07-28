@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Estilo Padrão para todas as páginas!*/
+.header_back {
+    background-color: #840101;
+    text-align: center;
+}
+
+.header_back a img {
+    height: 400px;
+    width: 400px;
+}
+
+.header_menu {
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header_menu ul{
+    display: flex;
+}
+
+.header_menu ul li {
+    list-style: none;
+    padding: 20px;
+}
+
+.header_menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header_menu ul li a:hover {
+    opacity: 50%;
+}
+
+
+footer {
+    background-color: #840101;
+    color: white;
+    padding: 20px 0 20px 0;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.footer_payment p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+.footer_payment img{
+    width: 75px;
+    height: 75px;
+    padding-right: 10px;
+}
+
+.footer_adress {
+    font-size: 20px;
+}
+
+.footer_adress_title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer_rights {
+    font-size: 18px;
+    text-align: center;
+}
+/*FIM*/
+
+
+.body_start {
+    text-align: center;
+    background-color: #F5DEB3;
+    padding: 20px 0 40px 0;
+}
+
+.body_start img {
+    width: 1400px;
+    height: 600px;
+}
+
+.body_start p {
+    font-size: 25px;
+    margin: 35px 20px 0 20px;
+}
+
+.body_start h1 {
+    font-size: 45px;
+    margin: 20px 0 40px 0;
+}
+
+.body_product {
+    text-align: center;
+    background-color: #FFEBCD;
+    padding: 20px 0 40px 0;
+}
+
+.body_product p {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.body_product_image {
+    width: 800px;
+    height: 400px;
+}
+
+.body_options {
+    text-align: center;
+    background-color: #FFE4C4;
+    padding: 20px 0 20px 0;
+}
+
+.body_options p {
+    font-size: 25px;
+}
+
+.body_options img {
+    width: 800px;
+    height: 400px;
+}
+
+.body_options h1{
+    margin-bottom: 20px;
+}
+
+.body_options_top {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.body_options_top div:nth-child(1){
+    width: 800px;
+    height: 500px;
+}
+
+.body_options_top div:nth-child(2){
+    width: 800px;
+    height: 500px;
+}
+
+.body_options_top div:nth-child(1) p{
+    margin-bottom: 40px;
+}
+
+.body_options_top div:nth-child(2) p {
+    margin-bottom: 12px;
+}
+
+.mini_map{
+    background-color:#FFDEAD;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px){
+    .body_start img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .body_start p {
+        font-size: 15px;
+    }
+
+    .body_start h1 {
+        font-size: 20px;
+    }
+
+    .body_product p{
+        font-size: 15px;
+    }
+
+    .body_product img{
+        width: 85%;
+        height: 250px;
+    }
+
+    .body_options h1{
+        font-size: 20px;
+    }
+
+    .body_options p{
+        font-size: 15px;
+    }
+
+    .body_options img {
+        width: 85%;
+        height: 250px;
+    }
+
+    .body_options_top {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    iframe {
+        width: 300px;
+        height: 300px;
+    }
+
+    .body_options_top div:nth-child(1), .body_options_top div:nth-child(2){
+        width: 500px;
+        height: 350px;
+    }
+
+    .body_options_top div:nth-child(1) p{
+        margin-bottom: 12px;
+    }
+
+    .header_menu {
+        align-items: center;
+    }
+
+    .header_menu ul{
+        align-items: center;
+    }
+
+    .header_menu ul li {
+        text-align: center;
+    }
+
+    .footer {
+        display:inline-block;
+        
+    }
+
+    .footer_payment {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer_payment img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .footer_payment p {
+        font-size: 15px;
+    }
+
+    .footer_adress {
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .footer_adress_title {
+        margin-bottom: 10px;
+    }
+}
+
