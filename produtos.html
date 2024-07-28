@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar do Tião - HOME</title>
+    <link rel="stylesheet" href="produtos.css">
+</head>
+<body>
+    <header>
+        <div class="header_back">
+            <a href="index.html"><img src="./imagens/logo.jpeg" alt="Logo do Bar do Tião"></a>
+        </div>
+
+        <div class="header_menu">
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./produtos.html">NOSSOS PRODUTOS</a></li>
+                <li><a href="./sobre_nos.html">SOBRE NÓS</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="body_product">
+        <h1></h1>
+
+        <div class="buttons">
+            <button onclick="filtrar_categoria('cervejas')">Cervejas</button>
+            <button onclick="filtrar_categoria('destilados')">Destilados</button>
+            <button onclick="filtrar_categoria('nao_alcoolico')">Não álcoólicos</button>
+            <button onclick="filtrar_categoria('aperitivos')">Aperitivos</button>
+            <button onclick="filtrar_categoria('doces')">Doces</button>
+        </div>
+        <section class="products">
+            
+            <div class="products_container">
+                <div class="products_containers cervejas">
+                    <p>Cerveja original 1L</p>
+                    <img class="product_image" src="./imagens/original.jpeg" alt="">
+                </div>
+
+                <div class="products_containers cervejas">
+                    <p>Cerveja Brahma 1L</p>
+                    <img class="product_image" src="./imagens/brahma_1l.jpg" alt="">
+                </div>
+
+                <div class="products_containers cervejas">
+                    <p>Cerveja Skol 1L</p>
+                    <img class="product_image" src="./imagens/skol_1l.jpeg" alt="">
+                </div>
+
+                <div class="products_containers cervejas">
+                    <p>Cerveja Kaiser 1L</p>
+                    <img class="product_image" src="./imagens/kaiser_1l.jpg" alt="">
+                </div>
+
+                <div class="products_containers cervejas">
+                    <p>Cerveja Original 350ml</p>
+                    <img src="./imagens/original_lat.jpg" alt="" class="product_image">
+                </div>
+
+                <div class="products_containers cervejas">
+                    <p>Cerveja Brahma 300ml</p>
+                    <img src="./imagens/brahma_lat.jpg" alt="" class="product_image">
+                </div>
+
+                <div class="products_containers cervejas">
+                    <p>Cerveja Skol 350ml</p>
+                    <img src="./imagens/skol_lat.jpg" alt="" class="product_image">
+                </div>
+
+                <div class="products_containers cervejas">
+                    <p>Cerveja Kaiser 350ml</p>
+                    <img src="./imagens/kaiser_lat.webp" alt="" class="product_image">
+                </div>
+
+
+                <div class="products_containers nao_alcoolico">
+                    <p>Coca-Cola 350ml</p>
+                    <img src="./imagens/coca_lat.jpg" alt="" class="product_image">
+                </div>
+                <div class="products_containers nao_alcoolico">
+                    <p>Coca-Cola 1L</p>
+                    <img src="./imagens/coca_1l.webp" alt="" class="product_image">
+                </div>
+                <div class="products_containers nao_alcoolico">
+                    <p>Coca-Cola 2L</p>
+                    <img src="./imagens/coca_2l.jpg" alt="" class="product_image">
+                </div>
+                <div class="products_containers nao_alcoolico">
+                    <p>Guaraná 350ml</p>
+                    <img src="./imagens/guarana_lat.png" alt="" class="product_image">
+                </div>
+                <div class="products_containers nao_alcoolico">
+                    <p>Guaraná 2L</p>
+                    <img src="./imagens/guarana_2l.webp" alt="" class="product_image">
+                </div>
+                <div class="products_containers nao_alcoolico">
+                    <p>Pepsi 350ml</p>
+                    <img src="./imagens/pepsi_lat.jpg" alt="" class="product_image">
+                </div>
+                <div class="products_containers nao_alcoolico">
+                    <p>Pepsi 2L</p>
+                    <img src="./imagens/pepsi_2l.webp" alt="" class="product_image">
+                </div>
+                <div class="products_containers nao_alcoolico">
+                    <p>Fanta Laranja 350ml</p>
+                    <img src="./imagens/fanta_lat.webp" alt="" class="product_image">
+                </div>
+
+                <div class="products_containers nao_alcoolico">
+                    <p>Fanta laranja 2L</p>
+                    <img src="./imagens/fanta_2l.webp" alt="" class="product_image">
+                </div>
+
+                <div class="products_containers nao_alcoolico">
+                    <p>Água garrafinha</p>
+                    <img src="./imagens/agua.jpg" alt="" class="product_image">
+                </div>
+
+                <div class="products_containers destilados">
+                    <p>Dose de pinga 51</p>
+                    <img src="./imagens/pinga_51.webp" alt="" class="product_image">
+                </div>
+                <div class="products_containers destilados">
+                    <p>Dose de pinga Jamel</p>
+                    <img src="./imagens/pinga_jamel.jpg" alt="" class="product_image">
+                </div>
+                <div class="products_containers destilados">
+                    <p>Dose de whisky Drury´s</p>
+                    <img src="./imagens/drury.jpg" alt="" class="product_image">
+                </div>
+                <div class="products_containers destilados">
+                    <p>Dose de whisky Natu Nobilis</p>
+                    <img src="./imagens/natu_nobilis.webp" alt="" class="product_image">
+                </div>
+                <div class="products_containers destilados">
+                    <p>Dose de tequila José Cuervo</p>
+                    <img src="./imagens/jose_cuervo.png" alt="" class="product_image">
+                </div>
+                <div class="products_containers destilados">
+                    <p>Dose de Campari</p>
+                    <img src="./imagens/campari.webp" alt="" class="product_image">
+                </div>
+                
+                <div class="products_containers aperitivos">
+                    <p>Pão Francês com Linguiça</p>
+                    <img src="./imagens/pão_linguiça.webp" alt="" class="product_image">
+                </div>
+                <div class="products_containers aperitivos">
+                    <p>Espetinho de salsicha e ovo</p>
+                    <img src="./imagens/espetinho.jpeg" alt="" class="product_image">
+                </div>
+                <div class="products_containers aperitivos">
+                    <p>Rollomps</p>
+                    <img src="./imagens/peixe_cebola.jpeg" alt="" class="product_image">
+                </div>
+                <div class="products_containers aperitivos">
+                    <p>Ovo em conserva</p>
+                    <img src="./imagens/ovo.jpeg" alt="" class="product_image">
+                </div>
+
+                <div class="products_containers doces">
+                    <p>Doce de amendoim caseiro</p>
+                    <img src="./imagens/doce_amendoim.jpg" alt="" class="product_image">
+                </div>
+                <div class="products_containers doces">
+                    <p>Canudo de doce de leite</p>
+                    <img src="./imagens/canudo_leite.jpg" alt="" class="product_image">
+                </div>
+                <div class="products_containers doces">
+                    <p>Doce de leite caseiro</p>
+                    <img src="./imagens/doce_leite.jpg" alt="" class="product_image">
+                </div>
+                <div class="products_containers doces">
+                    <p>Paçoquita</p>
+                    <img src="./imagens/paçoquita.jpg" alt="" class="product_image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function filtrar_categoria(category){
+            var products = document.querySelectorAll('.products_containers')
+            products.forEach(function(product){
+                product.style.display = 'none'
+            })
+
+            var selected_products = document.querySelectorAll('.'+category)
+            selected_products.forEach(function(product){
+                product.style.display = 'block'
+            })
+            
+        }
+    </script>
+</body>
+
+<footer>
+    <div class="footer">
+        <div class="footer_payment">
+            <p>Formas de pagamento:</p>
+            <img src="./imagens/dinheiro.png" alt="Imagem de algumas notas de dinheiro em papel">
+            <img src="./imagens/cartao.png" alt="Imagem com dois cartões(crédito e débito)">
+            <img src="./imagens/logo-pix-1920x1080.png" alt="Logo do PIX">
+        </div>
+
+        <div class="footer_adress">
+            <p class="footer_adress_title">Nosso endereço</p>
+            <p>Rua Pedro Ribaski, 175 - Jardim Ipê, São José dos Pinhais/PR</p>
+        </div>
+    </div>
+    <p class="footer_rights">&copy; Bar e Lanchonete do Tião 2024 - Todos os direitos reservados</p>
+</footer>
+</html>
